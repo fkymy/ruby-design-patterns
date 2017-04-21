@@ -2,8 +2,12 @@
 
 the book that made me fall in love with ruby
 
-Assumptions
+![cover](cover.jpg "Cover")
+
+Assumptions:
 ruby 2.2.0
+it does not follow the [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide)
+
 
 Gang of Four design patterns stuck to the middle ground of object-oriented design, and focused on some key questions:
 
@@ -149,3 +153,9 @@ The combination of composition and delegation is a powerful and flexible alterna
 #### You Ain't Gonna Need It (YAGNI)
 
 The YAGNI principle says simply that you should not implement features, or design in flexibility, that you don't need right now. Why? Because the chances are, you ain't gonna need it later, either.
+
+More reasons:
+
+- We tend to be wrong when we try to anticipate exactly what we will need in the future.
+- We are betting to write code now that will solve a problem in the future, which has not come up yet.
+- You are guilty of programming while stupid; if you wait until you really need the thing, you are likely to have a better understanding of what you need to do and how you should go about doing it.
