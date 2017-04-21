@@ -10,6 +10,7 @@ ruby 2.2.0
 
 it does not follow the [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide)
 
+---
 
 Gang of Four design patterns stuck to the middle ground of object-oriented design, and focused on some key questions:
 
