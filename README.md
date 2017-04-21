@@ -5,7 +5,9 @@ the book that made me fall in love with ruby
 ![cover](cover.jpg "Cover")
 
 Assumptions:
+
 ruby 2.2.0
+
 it does not follow the [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide)
 
 
