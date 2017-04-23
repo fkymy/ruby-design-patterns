@@ -75,7 +75,6 @@ For composition, we try to avoid saying that an object *is a kind of* something 
 
 ```inheritence.rb
 class Vehicle
-
   def start_engine
   end
 
