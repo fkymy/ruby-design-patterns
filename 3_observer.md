@@ -1,4 +1,4 @@
-### Strategy
+### Observer
 
 #### Problem:
 Building a system that is highly integrated - a system where every part is aware of the state of the whole.
