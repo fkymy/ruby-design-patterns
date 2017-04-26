@@ -258,4 +258,30 @@ end
 # fred.salary = 40000
 ```
 
+#### Concerns
+
+The concern is centered around the interface.
+
+The pull method in the observer allows it to pull whatever details about the change that they need out of the subject.
+
+The push method has the subject send the observers a lot of details about the change:
+`observer.update(self, :salary_changed, old_salary, new_salary)`
+
+```
+observer.update_salary(self, old_salary, new_salary)
+observer.update_title(self, old_title, new_title)
+```
+
+Of course, the disadvantage is sending all of the details, even if they are not interested.
+
+If mutiple attributes of a Subject are being updated by many users, it could cause inconsistent state.
+
+```inconsistent.rb
+fred = Employee.new('Fred', 'Crane Operator', 30000)
+fred.salary = 1000000
+# Warning! Inconsistent state here!
+fred.title = 'Vice President of Sales'
+```
+
+
 Similar to the Strategy pattern, both feature and object (called the observable in the Observer pattern and the context in the Strategy pattern) to make calls out to some other object. The diff is one of intent. In this case we are informing the other object to the events occurring back at the observable. Strategy gets the object to do some computing.
