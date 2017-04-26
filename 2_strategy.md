@@ -5,7 +5,7 @@ How do you vary part of an algorithm?
 The previous answer was the Template Method: create a base class with a template method that controls the overall processing and then to use subclasses to fill in the details.
 But there are drawbacks from the fact that it's built around inheritance. Subclasses are destined to tangle up with their superclass. There is also limit to runtime flexibility (after creating a whole new report object).
 
-#### Alternative
+#### Solution:
 Instead of creating a subclass for each variation, isolate the varying algorithm in its own class.
 Delegate tasks to a family of encapsulated algorithms which are interchangeable at runtime.
 
