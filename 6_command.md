@@ -1,7 +1,5 @@
 ### Commands
 
-#### Problem:
-
 Solution through inheritance:
 ```problem.rb
 class SlickButton
