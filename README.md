@@ -1,14 +1,12 @@
 ### Design Patterns in Ruby by Russ Olsen
 
-the book that made me fall in love with ruby
+must buy.
 
 ![cover](cover.jpg "Cover")
 
 Assumptions:
-
-ruby 2.2.0
-
-it does not follow the [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide)
+- ruby 2.2.0
+- some parts does not follow the [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide)
 
 ---
 
