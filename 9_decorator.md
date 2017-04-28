@@ -108,3 +108,10 @@ end
 ```
 
 Be careful of method name collisions though.
+It is also harder to debug.
+
+>The classic Decorator pattern is loved more by the folks who build the thing than by those who use it
+
+---
+
+The key implementation idea of the Decorator pattern is that they are essentially shells: each take in a method call, adds its own special twist, and passes the call on to the next component in line.
